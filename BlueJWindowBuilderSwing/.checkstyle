@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<fileset-config file-format-version="1.2.0" simple-config="true" sync-formatter="false">
+  <local-check-config name="Google Naming Conventions" location="internal_config_1531661253227.xml" type="internal" description=""/>
+  <local-check-config name="Google Imports" location="internal_config_1531750244504.xml" type="internal" description=""/>
+  <local-check-config name="Google Coding" location="internal_config_1531750432320.xml" type="internal" description=""/>
+  <local-check-config name="Google Modifier" location="internal_config_1531750661510.xml" type="internal" description=""/>
+  <local-check-config name="Google Miscellaneous" location="internal_config_1531750772304.xml" type="internal" description=""/>
+  <fileset name="all" enabled="true" check-config-name="Google Checks" local="false">
+    <file-match-pattern match-pattern="." include-pattern="true"/>
+  </fileset>
+</fileset-config>
